@@ -12,3 +12,12 @@ body{
     margin-left: 60px;
     margin-top: 40px;
 }
+
+#numbers-div input{
+    margin-left: 50px;
+    
+}
+
+#buttons{
+    margin: 10px 0px 0px 300px;
+}

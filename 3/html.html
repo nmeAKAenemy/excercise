@@ -2,18 +2,23 @@
 <html>
     <head>
         <title>
-            multipication
+            math operation
         </title>
     </head>
     <script src="js.js"></script>
     <link rel="stylesheet" href="css.css">
     <body>
-        <p id="multi">Enter 2 numbers below to multipicate :</p>
+        <p id="multi">Enter 2 numbers below :</p>
         <hr>
         <div id="numbers-div">
-            <input class="numbers" type="text" value="First Number"  required>
-            <input class="numbers" type="text" value="Second Number" required>
-            <button id="multi-btn" onclick="multi()">multi</button>
+            First Number:<input type="text" name="first" required>
+            <br>
+            Second Number:<input type="text" name="second" required>
+            <br>
+        </div>
+        <div id="buttons">
+            <button class="calc-btn" onclick="multi()">multi</button>
+            <button class="calc-btn" onclick="divide()">divide</button>
         </div>
     </body>
 </html>
