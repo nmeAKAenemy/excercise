@@ -2,9 +2,10 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
 
-#multi{
+h1{
     padding: 50px 0px 5px 40px;
 }
 
@@ -15,9 +16,17 @@ body{
 
 #numbers-div input{
     margin-left: 50px;
-    
+    padding: 5px 0px 5px 0px;
 }
 
-#buttons{
+#buttons-div{
     margin: 10px 0px 0px 300px;
+}
+
+.btn{
+    padding: 5px 10px 5px 10px;
+}
+
+#result{
+    margin: 0px 0px 0px 60px;
 }

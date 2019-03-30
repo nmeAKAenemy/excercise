@@ -8,17 +8,19 @@
     <script src="js.js"></script>
     <link rel="stylesheet" href="css.css">
     <body>
-        <p id="multi">Enter 2 numbers below :</p>
+        <h1>Enter 2 numbers below:</h1>
         <hr>
         <form id="numbers-div">
-            First Number:<input class="numbers" type="text" name="first" required>
+            <!-- style in input moshkel dare: -->
+            First Number:<input style="margin-left:79px" class="numbers" type="text" name="first" required>
             <br>
             Second Number:<input class="numbers" type="text" name="second" required>
             <br>
         </form>
-        <div id="buttons">
-            <button class="calc-btn" onclick="multi()">multi</button>
-            <button class="calc-btn" onclick="divide()">divide</button>
+        <div id="buttons-div">
+            <button class="btn" onclick="multi()">multi</button>
+            <button class="btn" onclick="divide()">divide</button>
         </div>
+        <p id="result">result:</p>
     </body>
 </html>
