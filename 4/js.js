@@ -37,6 +37,6 @@ function toCelsius(){
     document.getElementsByClassName("btn")[4].disabled = false;
 }
 
-function refresh(){
-    location.reload();
-}
+// function refresh(){
+//     location.reload();
+// }
