@@ -1,0 +1,32 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+body h1{
+     padding: 50px 0px 5px 40px;
+}
+
+#guidance{
+    margin: 20px 0px 10px 40px;
+}
+
+input{
+    margin-left: 108px;
+    padding: 5px 10px 5px 10px;
+}
+
+#numbers-div{
+    margin: 30px 0px 0px 70px;
+}
+
+.btn{
+    margin: 20px 0px 0px 460px;
+    padding: 5px 10px 5px 10px;
+}
+
+#result{
+    margin-left: 70px;
+}
