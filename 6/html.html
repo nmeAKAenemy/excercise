@@ -5,19 +5,19 @@
             control numbers
         </title>
     </head>
-    <script src="JS.js"></script>
     <link rel="stylesheet" href="css.css">
+    <script src="JS.js"></script>
     <body>
         <h1>this program's gonna check your numbers</h1>
         <hr>
         <p id="guidance">Enter two numbers below:</p>
         <div id="numbers-div">
-            First Number:<input style="margin-left:137px" type="text" name="first" required>
+            First Number:<input style="margin-left:137px" class="numbers" type="text" name="first" required />
             <br>
-            Second Number:<input type="text" name="second" required>
+            Second Number:<input type="text" name="second" class="numbers" required />
             <br>
         </div>
-        <button class="btn" onclick="smaller()">check</button>
+        <button class="btn" onclick="check()">check</button>
         <p id="result"></p>
     </body>
 </html>
