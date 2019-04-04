@@ -2,10 +2,9 @@
 
 
 function check(){
-        var x = document.getElementsByClassName("numbers")[0];
-        var y = document.getElementsByClassName("numbers")[1];
-        // var x = number[0];
-        // var y = number[1];
+        var number = document.getElementsByClassName("numbers");
+        var x = number[0];
+        var y = number[1];
         var z = x + y;
         if ( x = 50 || y == 50 || z == 50 ){
             document.getElementById("result").innerHTML = "True";
