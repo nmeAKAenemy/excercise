@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+body h1{
+    padding: 50px 0px 5px 40px;
+}
+
+.btn{
+    margin: 20px 0px 0px 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.guidance{
+    margin: 20px 0px 10px 40px;
+}
+
+.arr{
+    margin: 10px 0px 0px 70px;
+    padding: 5px 10px 5px 10px;
+    height: 90px;
+    width: 90px;;
+}
+
+/* #arr2{
+    margin: 10px 0px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    height: 90px;
+    width: 90px;;
+    
+} */
+
+#result{
+    margin: 30px 0px 10px 70px;
+}
+
+#form2{
+    border: 1px solid black;
+    margin: 10px 0px 10px 70px;
+    width: 400px;
+    height: 200px;
+}
+
+#form1{
+    border: 1px solid black;
+    margin: 10px 0px 10px 70px;
+    width: 300px;
+    height: 100px;
+}
+
+#main-guide{
+    margin: 10px 10px 10px 10px;
+}
