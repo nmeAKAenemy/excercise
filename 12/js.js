@@ -9,7 +9,7 @@ function search(){
                 document.getElementById("result").innerHTML = "The text you've entered doesn't have 'script' word";
             }else{
                 document.getElementById("result").innerHTML = "The text you've entered has 'script' word in it";
-                document.getElementById("btn1").style.display = "block";
+                document.getElementsByClassName("btn")[1].style.display = "inline";
                 document.getElementById("form1").style.display = "block";
                 
             }
@@ -19,8 +19,8 @@ function search(){
     }else{
         document.getElementById("result").innerHTML = "what you've entered is a number, please input a text!";
     }
-    document.getElementById("btn2").style.display = "block";
-    document.getElementById("btn").disabled = true;
+    document.getElementsByClassName("btn")[2].style.display = "inline";
+    document.getElementsByClassName("btn")[0].disabled = true;
 }
 
 function detail(){

@@ -9,20 +9,22 @@ body h1{
     padding: 50px 0px 5px 40px;
 }
 
-#btn{
+.btn{
     margin: 20px 0px 0px 20px;
     padding: 5px 10px 5px 10px;
 }
 
-#btn1{
+/* #btn1{
     margin: 20px 0px 0px 20px;
     padding: 5px 10px 5px 10px;
+    display: none;
 }
 
 #btn2{
     margin: 20px 0px 0px 20px;
     padding: 5px 10px 5px 10px;
-}
+    display: none;
+} */
 
 #guidance{
     margin: 20px 0px 10px 40px;

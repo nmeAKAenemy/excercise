@@ -10,11 +10,11 @@
     <body>
         <h1>This program's gonna search for 'script' word</h1>
         <hr>
-        <p id="guidance">enter yuor text below:</p>
+        <p id="guidance">enter your text below:</p>
         <input type="text" name="text" id="text" required/>
-        <button id="btn" onclick="search()">Search</button>
-        <button id="btn1" onclick="detail()" style="display:none">Detail</button>
-        <button id="btn2" onclick="window.location.reload()" style="display:none">Refresh</button>
+        <button class="btn" onclick="search()">Search</button>
+        <button class="btn" style="display:none" onclick="detail()">Detail</button>
+        <button class="btn" style="display:none" onclick="window.location.reload()">Refresh</button>
         <form class="form">
             <p id="result"></p>
         </form>
